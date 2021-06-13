@@ -14,7 +14,9 @@ You need to have docker and minio distributed installed.
 
 ## Technologies
 
+Pandas
 Python 3.9.5
+PySpark
 
 ## Launch
 
