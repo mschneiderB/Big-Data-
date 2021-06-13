@@ -12,6 +12,12 @@ Installation on fedora
 
 You need to have docker and minio distributed installed.
 
+Installation on windows
+
+starting the container
+'docker run -it --rm -p 8888:8888 -v "${pwd}:/home/jovyan/work" jupyter/pyspark-notebook start-notebook.sh --NotebookApp.token='pyspark''
+
+
 ## Technologies
 
 Pandas
