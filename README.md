@@ -22,7 +22,7 @@ Siehe auch https://developer.fedoraproject.org/tools/docker/docker-installation.
 Starten des Containers
 sudo systemctl start docker
 
-docker-compose.yaml und nginx.conf in gewünschten Pfad ablegen, um daraufhin docker-compose aufzurufen
+docker-compose.yaml und nginx.conf in gewünschtem Pfad ablegen, um daraufhin docker-compose aufzurufen
 
 sudo docker-compose up  
 Hiermit werden alle Container gestartet  
@@ -39,7 +39,12 @@ mc config host add minio http://minio1:9000 minio minio123 --api S3v4
 mc mb minio/bucket  
 mc policy set public minio/bucket  
 
-in Browser in "http://localhost:9000" in bucket die Datei "real-domains.csv" hochladen. Rechtsklick über bucket und Edit policy in Read an write und addieren
+im Terminal:
+sudo apt install csvkit
+csvformat -D ";" <Pfad der Datei>/real_domains.csv > real_new.csv 
+damit wird der delimeter der Datei zu Semikolon geändert um sie problemlos in spark einlesen zu können
+
+in Browser in "http://localhost:9000" in bucket die Datei "real-new.csv" hochladen. Rechtsklick über bucket und Edit policy in Read an write und addieren
 
 Die Datei ..ipynb in Jupyter aufrufen und runnen.
 
