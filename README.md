@@ -60,7 +60,7 @@ Installation on windows
 Docker 20.10.7
 
 Pandas
-Python 3.9.5
+Python 3.9.4
 PySpark
 
 ## Launch
