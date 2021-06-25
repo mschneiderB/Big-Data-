@@ -57,11 +57,11 @@ Installation on windows
 
 ## Technologies
 
-Docker 20.10.7
+Docker 20.10.7 
 
-Pandas
-Python 3.9.4
-PySpark
+Pandas  
+Python 3.9.4  
+PySpark  
 
 ## Launch
 
