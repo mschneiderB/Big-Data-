@@ -30,7 +30,7 @@ sudo docker-compose up
 ```
 Hiermit werden alle Container gestartet  
 
-Aufrufen von
+Aufrufen von   
 http://localhost:9000  
 http://127.0.0.1:8080  
 http://127.0.0.1:8888   
