@@ -9,6 +9,7 @@ In the following project we have been analyzing a data set of 4.860.885 data poi
 
 Folgende Programme müssen installiert werden
 -Docker
+-Docker-compose
 
 
 Beispielhaft erfolgt die Installation auf Fedora wie folgt
@@ -16,6 +17,7 @@ Beispielhaft erfolgt die Installation auf Fedora wie folgt
 sudo dnf install dnf-plugins-core  
 sudo dnf config-manager --add-repo https://download.docker.com/linux/fedora/docker-ce.repo  
 sudo dnf install docker-ce docker-ce-cli containerd.io  
+sudo dnf install docker-compose
 ```
 Siehe auch https://developer.fedoraproject.org/tools/docker/docker-installation.html  
 
