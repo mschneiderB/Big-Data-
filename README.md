@@ -55,10 +55,10 @@ csvformat -D ";" <Pfad der Datei>/real_domains.csv > real_new.csv
 damit wird der delimeter der Datei zu Semikolon geändert um sie problemlos in spark einlesen zu können.
 
 Im Browser in "http://localhost:9000" in bucket die Datei "real-new.csv" hochladen. Rechtsklick über bucket und Edit policy in Read and write und addieren.
-Daraufhin müssen im bucket alle weiteren benötigten csv-files hochgeladen werden:
-GeoLite2-Country-Locations-en.csv
-GeoLite2-Country-Blocks-IPv4.csv
-GeoLite2-ASN-Blocks-IPv4.csv
+Daraufhin müssen im bucket alle weiteren benötigten csv-files hochgeladen werden:   
+GeoLite2-Country-Locations-en.csv   
+GeoLite2-Country-Blocks-IPv4.csv  
+GeoLite2-ASN-Blocks-IPv4.csv   
 
 Die Datei BDA_2.ipynb in Jupyter aufrufen und runnen.
 
