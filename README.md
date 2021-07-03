@@ -60,7 +60,7 @@ GeoLite2-Country-Locations-en.csv
 GeoLite2-Country-Blocks-IPv4.csv  
 GeoLite2-ASN-Blocks-IPv4.csv   
 
-Die Datei BDA_2.ipynb in Jupyter aufrufen und runnen.
+Die Datei Big_Data_Analyse.ipynb in Jupyter aufrufen und runnen.
 
 
 ## Technologies
