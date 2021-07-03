@@ -34,7 +34,6 @@ Hiermit werden alle Container gestartet
 
 Aufrufen von   
 http://localhost:9000  
-http://127.0.0.1:8080  
 http://127.0.0.1:8888   
 
 Führen Sie den folgenden Befehl aus  
@@ -55,17 +54,16 @@ damit wird der delimeter der Datei zu Semikolon geändert um sie problemlos in s
 
 Im Browser in "http://localhost:9000" in bucket die Datei "real-new.csv" hochladen. Rechtsklick über bucket und Edit policy in Read and write und addieren.
 
-Die Datei ..ipynb in Jupyter aufrufen und runnen.
-
+Die Datei BDA_2.ipynb in Jupyter aufrufen und runnen.
 
 
 ## Technologies
 
-Docker 20.10.7 
-
+Docker 
 Pandas  
-Python 3.9.4  
+Python 
 PySpark  
+Seaborn
 
 
 ## License
