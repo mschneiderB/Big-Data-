@@ -59,11 +59,11 @@ Die Datei BDA_2.ipynb in Jupyter aufrufen und runnen.
 
 ## Technologies
 
-Docker 
-Pandas  
-Python 
-PySpark  
-Seaborn
+Docker   
+Pandas    
+Python   
+PySpark    
+Seaborn   
 
 
 ## License
