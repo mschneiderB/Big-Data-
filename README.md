@@ -32,6 +32,8 @@ sudo docker-compose up
 ```
 Hiermit werden alle Container gestartet  
 
+Danach können Sie Jupyter Notebook mit dem entsprechenden Link öffnen. Dieser steht in dem Terminal nach folgender Ausgabe: To access the notebook, open this file in a browser: xxx Or copy and paste one of these URLs: xxx
+
 Aufrufen von   
 http://localhost:9000  
 http://127.0.0.1:8888   
