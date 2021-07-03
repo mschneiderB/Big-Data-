@@ -67,14 +67,13 @@ Pandas
 Python 3.9.4  
 PySpark  
 
-## Launch
 
 ## License
 The project is licensed with the GNU General public license. See license.txt for more information. 
 
 
 ## Team members
-Daniel, Laura, Miriam
+Daniel Eben, Laura Rücker, Miriam Schneider
 
 
 
